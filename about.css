@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ body{
+    background:#111;
+    font-family:Arial, sans-serif;
+}
+header{
+    background-color: black;
+    color:gold;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:15vh;
+    text-indent:50px;
+}
+h2{
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+a:hover{
+    border:2px solid gold;
+    color:aqua;
+    font-family: lucida handwriting;
+}
+section p{
+    color:gold;
+    font-size:18px;
+    line-height: 100px;
+    margin-bottom:25px;
+    margin-right: 50px;
+}
+section h2{
+    color:white;
+    font-size:50px;
+    line-height:60px;
+    margin-bottom:30px;
+    text-indent: 50px;
+} 
+p{
+    color: white;
+    margin-left: 60px;
+}
+.story h2{
+    color:gold;
+    font-size:20px;
+    letter-spacing:2px;
+    margin:25px 0 15px;
+    text-align: center;
+}
+.story-line{
+    width:90px;
+    height:4px;
+    margin: 20px  auto 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right,transparent,gold,transparent);
+    box-shadow: 0 0 12px #d4af37;
+}
+.story img{
+    height:300px;
+    Width:300px;
+    object-fit:cover;
+    display:block;
+     margin:20px auto;
+     border: 2px solid gold;
+     border-radius: 10px;
+}
+.para1{
+    color:white;
+    font-size:18px;
+    line-height: 50px;
+    margin-bottom:15px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+.mission{
+    width:100%;
+    background:#151515;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.mission h2{
+    color:#ffffff;
+    font-size:42px;
+    font-family:"Times New Roman", serif;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+.mission-line{
+    width:90px;
+    height:4px;
+    margin:0 auto 60px;
+    border-radius:50px;
+    background:linear-gradient(to right,transparent,#D4AF37,gold,#D4AF37,transparent);
+    box-shadow:0 0 8px gold,0 0 18px rgba(255,215,0,0.5);
+}
+
+.mission-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:#222;
+    border-radius:10px;
+    padding:30px 25px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.5);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(212,175,55,0.6);
+}
+
+.card h3{
+    color:#D4AF37;
+    font-size:24px;
+    font-family:"Times New Roman", serif;
+    margin-bottom:20px;
+}
+
+.card p{
+    color:#dddddd;
+    font-size:17px;
+    line-height:28px;
+}
+.core{
+    width:100%;
+    text-align:center;
+    padding:70px 0;
+    background:#151515;
+}
+
+.core h2{
+    color:#ffffff;
+    font-size:36px;
+    font-weight:normal;
+    margin-bottom:12px;
+    letter-spacing:1px;
+}
+
+.core-line{
+    width:90px;
+    height:4px;
+    margin:15px auto 40px;
+    border-radius:50px;
+    background:linear-gradient(to right,transparent,#d4af37,gold,#d4af37,transparent);
+    box-shadow:
+        0 0 8px gold,
+        0 0 15px rgba(255,215,0,0.7);
+}
+.core1,
+.core2,
+.core3,
+.core4{
+    display:inline-block;
+    width:180px;
+    height:75px;
+    margin:12px;
+    padding-top:20px;
+    background:#222;
+    border:1px solid #333;
+    border-radius:8px;
+    color:#fff;
+    font-size:15px;
+    font-family:Arial, sans-serif;
+    line-height:25px;
+    text-align:center;
+    vertical-align:top;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    transition:0.3s ease;
+}
+.client-container{
+    width:100%;
+    background:#111;
+    margin:0;
+    padding:0;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer h3{
+    color:#D4AF37;
+    font-size:32px;
+    font-family:"Times New Roman", serif;
+    letter-spacing:3px;
+    margin:0;
+}
+
+.footer-line{
+    width:90px;
+    height:4px;
+    margin:0 auto 60px;
+    border-radius:50px;
+    background:linear-gradient(to right,transparent,#D4AF37,gold,#D4AF37,transparent);
+    box-shadow:0 0 8px gold,0 0 18px;
+}
+.tagline{
+    color:#ffffff;
+    font-size:16px;
+    margin:0 0 15px;
+    font-family:Arial, sans-serif;
+}
+
+.copy{
+    color:#bdbdbd;
+    font-size:14px;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+

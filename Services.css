@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+     margin:0;
+    font-family:Georgia, serif;
+}
+header{
+    background-color: black;
+    color:gold;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:15vh;
+    text-indent:50px;
+}
+h2{
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+a:hover{
+    border:2px solid gold;
+    color:aqua;
+    font-family: lucida handwriting
+}
+section p{
+    color:gold;
+    font-size:18px;
+    line-height: 100px;
+    margin-bottom:25px;
+    margin-right: 50px;
+}
+section h2{
+    color:white;
+    font-size:50px;
+    line-height:60px;
+    margin-bottom:30px;
+    text-indent: 50px;
+} 
+p{
+    color: white;
+    margin-left: 60px;
+}
+button{
+    height:50px;
+    width:170px;
+    color:black;
+    background-color:gold;
+    border-radius:40px;
+    border:none;
+    font-size:16px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+    box-shadow:0 0 20px rgb(212,175,55);
+    display:block;
+    margin:20px auto;
+}
+button:hover{
+    background-color: gold;
+    color:white;
+}
+.line {
+    width:90px;
+    height:4px;
+    margin: 20px  auto 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right,transparent,gold,transparent);
+    box-shadow: 0 0 12px #d4af37;
+}
+
+ .services{
+    text-align:center;
+    padding:60px 0;
+    background:#000;
+}
+
+.cards-row{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.service,
+.service-card,
+.villa-card{
+    width:320px;
+    background:#1d1d1d;
+    border:1px solid #333;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.4s;
+}
+
+.service:hover,
+.service-card:hover,
+.villa-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(255,215,0,0.4);
+}
+
+.service img,
+.service-card img,
+.villa-card img{
+    width:100%;
+    height:270px;
+    object-fit:cover;
+    display:block;
+}
+
+.service h3,
+.service-card h3,
+.villa-card h3{
+    color:gold;
+    font-size:20px;
+    letter-spacing:2px;
+    margin:25px 0 15px;
+}
+
+.service p,
+.service-card p,
+.villa-card p{
+    color:#d9d9d9;
+    font-size:16px;
+    line-height:30px;
+    padding:0 25px 30px;
+}
+.Trust{
+    width:100%;
+    text-align:center;
+    padding:70px 0;
+    background:#151515;
+}
+
+.Trust h2{
+    color:#ffffff;
+    font-size:36px;
+    font-weight:normal;
+    margin-bottom:12px;
+    letter-spacing:1px;
+}
+
+.Trust-line{
+    width:90px;
+    height:4px;
+    margin:15px auto 40px;
+    border-radius:50px;
+    background:linear-gradient(to right,transparent,#d4af37,gold,#d4af37,transparent);
+    box-shadow:
+        0 0 8px gold,
+        0 0 15px rgba(255,215,0,0.7);
+}
+.Trust1,
+.Trust2,
+.Trust3,
+.Trust4{
+    display:inline-block;
+    width:180px;
+    height:75px;
+    margin:12px;
+    padding-top:20px;
+    background:#222;
+    border:1px solid #333;
+    border-radius:8px;
+    color:#fff;
+    font-size:15px;
+    font-family:Arial, sans-serif;
+    line-height:25px;
+    text-align:center;
+    vertical-align:top;
+    box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    transition:0.3s ease;
+}
+.design-process{
+    background:#151515;
+    text-align:center;
+    padding:80px 20px;
+}
+.design-process h2{
+    color:#ffffff;
+    font-size:52px;
+    font-family:"Times New Roman", serif;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+.process-line{
+    width:90px;
+    height:4px;
+    margin:0 auto 45px;
+    border-radius:50px;
+    background:linear-gradient(to right,transparent,#D4AF37,gold,#D4AF37,transparent);
+    box-shadow:0 0 8px gold,0 0 18px rgba(255,215,0,0.6);
+}
+.process-text{
+    color:#d8d8d8;
+    font-size:24px;
+    font-family:Arial, sans-serif;
+    line-height:40px;
+    word-spacing:4px;
+}
+.client-container{
+    width:100%;
+    background:#111;
+    margin:0;
+    padding:0;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer h3{
+    color:#D4AF37;
+    font-size:32px;
+    font-family:"Times New Roman", serif;
+    letter-spacing:3px;
+    margin:0;
+}
+
+.footer-line{
+    width:90px;
+    height:4px;
+    margin: 20px  auto 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right,transparent,gold,transparent);
+    box-shadow: 0 0 12px #d4af37;
+}
+
+.tagline{
+    color:#ffffff;
+    font-size:16px;
+    margin:0 0 15px;
+    font-family:Arial, sans-serif;
+}
+
+.copy{
+    color:#bdbdbd;
+    font-size:14px;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+

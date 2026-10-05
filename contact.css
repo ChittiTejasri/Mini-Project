@@ -1,0 +1,240 @@
+
+body{
+    background-color: black;
+     margin:0;
+    font-family:Georgia, serif;
+}
+header{
+    background-color: black;
+    color:gold;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:15vh;
+    text-indent:50px;
+}
+h2{
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+a:hover{
+    border:2px solid gold;
+    color:aqua;
+    font-family: lucida handwriting
+}
+section p{
+    color:gold;
+    font-size:18px;
+    line-height: 100px;
+    margin-bottom:25px;
+    margin-right: 50px;
+}
+section h2{
+    color:white;
+    font-size:50px;
+    line-height:60px;
+    margin-bottom:30px;
+    text-indent: 50px;
+} 
+p{
+    color: white;
+    margin-left: 60px;
+}
+.touch{
+    width:100%;
+    background:#151515;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.touch h2{
+    color:#fff;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.touch-line{
+    width:90px;
+    height:4px;
+    margin:0 auto 60px;
+    background:linear-gradient(to right,transparent,#D4AF37,gold,#D4AF37,transparent);
+    border-radius:50px;
+}
+
+.touch-container{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.get{
+    width:300px;
+    background:#222;
+    border-radius:12px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.5);
+    transition:.4s;
+}
+
+.get:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px gold;
+}
+
+.get h3{
+    color:#D4AF37;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.get p{
+    color:#ddd;
+    font-size:17px;
+    line-height:28px;
+    margin:0;
+}
+.contact-form{
+    width:100%;
+    padding:80px 8%;
+    background:#0a0a0a;
+}
+
+.contact-form h2{
+    text-align:center;
+    color:#fff;
+    font-size:52px;
+    font-family:Georgia, serif;
+    margin-bottom:18px;
+}
+
+.gold-line{
+    width:120px;
+    height:4px;
+    margin:0 auto 60px;
+    background:linear-gradient(to right,transparent,#d4af37,transparent);
+    border-radius:10px;
+}
+
+.form-box{
+    max-width:900px;
+    margin:auto;
+    background:#1b1b1b;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:18px;
+    padding:45px;
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    background:#222;
+    color:#fff;
+    border:1px solid #333;
+    border-radius:8px;
+    padding:18px 20px;
+    font-size:17px;
+    outline:none;
+    transition:.3s;
+}
+input::placeholder,
+textarea::placeholder{
+    color:#9b9b9b;
+}
+select{
+    color:#9b9b9b;
+}
+input:focus,
+select:focus,
+textarea:focus{
+    border:1px solid #d4af37;
+    box-shadow:0 0 10px rgba(212,175,55,.3);
+}
+textarea{
+    resize:none;
+}
+button{
+    width:220px;
+    padding:16px;
+    margin:20px auto 0;
+    border:none;
+    border-radius:8px;
+    background:#d4af37;
+    color:#000;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+button:hover{
+    background:#f2c94c;
+    transform:translateY(-2px);
+}
+@media(max-width:768px){
+.contact-form{
+    padding:50px 20px;
+}
+.contact-form h2{
+    font-size:38px;
+}
+.form-box{
+    padding:25px;
+}
+button{
+    width:100%;
+}
+}
+.client-container{
+    width:100%;
+    background:#111;
+    margin:0;
+    padding:0;
+}
+.footer{
+    text-align:center;
+    padding:40px 20px;
+}
+.footer h3{
+    color:#D4AF37;
+    font-size:32px;
+    font-family:"Times New Roman", serif;
+    letter-spacing:3px;
+    margin:0;
+}
+.footer-line{
+    width:120px;
+    height:4px;
+    margin:0 auto 60px;
+    background:linear-gradient(to right,transparent,#d4af37,transparent);
+    border-radius:10px;
+}
+.tagline{
+    color:#ffffff;
+    font-size:16px;
+    margin:0 0 15px;
+    font-family:Arial, sans-serif;
+}
+.copy{
+    color:#bdbdbd;
+    font-size:14px;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
